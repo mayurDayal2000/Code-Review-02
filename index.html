@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="creator" content="mayur dayal">
+        <meta name="description" content="code review 02: Cheatsheet - Codecademy">
+        <link rel="stylesheet" href="css/style.css">
+        <title>CSS Selectors Cheatsheet</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS Selectors Cheatsheet</h1>
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <th><h2>Name</h2></th>
+                    <th><h2>Description</h2></th>
+                    <th><h2>Example</h2></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><h3>Universal Selector</h3></td>
+                    <td><p>Select all the elements in the HTML document.</p></td>
+                    <td class="border-rt">
+                        <pre>
+                        *{
+                            background-color: #d2691e;
+                        }
+                        </pre>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><h3>ID Selector</h3></td>
+                    <td><p>Select unique element with the specific id attribute.</p></td>
+                    <td class="border-rt">
+                        <pre>
+                        #blog-container{
+                            background-color: #c1988b;
+                        }
+                        </pre>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><h3>Class Selector</h3></td>
+                    <td><p>Select elements with the specific class attribute.</p></td>
+                    <td class="border-rt">
+                        <pre>
+                        .color-box{
+                            border: 2px solid #00bfff;
+                        }
+                        </pre>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><h3>Element Selector</h3></td>
+                    <td><p>Select all elements with the specified element name.</p></td>
+                    <td class="border-rt">
+                        <pre>
+                        a{
+                            text-decoration: none;
+                            padding: 2rem;
+                        }
+                        </pre>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><h3>Attribute Selector</h3></td>
+                    <td><p>select HTML elements that contains specific attributes.</p></td>
+                    <td class="border-rt">
+                        <pre>
+                        [href]{
+                            margin: 3rem auto;
+                        }
+                        </pre>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><h3>Descendant Selector</h3></td>
+                    <td><p>Select elements that are nested within other HTML elements</p></td>
+                    <td class="border-rt">
+                        <pre>
+                        header h1{
+                            background-color: #ffa07a;
+                        }
+                        </pre>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="border-btm"><h3>Adjacent Selector</h3></td>
+                    <td class="border-btm"><p>Select elements which is directly after another specific element.</p></td>
+                    <td class="border-btm border-rt">
+                        <pre>
+                        ul li{
+                            padding: 1.5rem;
+                        }
+                        </pre>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
